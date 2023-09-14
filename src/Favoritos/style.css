@@ -1,0 +1,18 @@
+.favoritos {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textofav {
+    color: rgba(128, 128, 128, 0.568);
+    font-size: 15px;
+}
+
+.retornar {
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+}
