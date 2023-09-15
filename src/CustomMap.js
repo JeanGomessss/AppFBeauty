@@ -23,7 +23,7 @@ class CustomMap extends Component {
       <MapContainer
         center={[-25.541054, -54.578975]}
         zoom={16}
-        style={{ height: '600px', width: '100%' }}
+        style={{ height: '100%', width: '100%' }}
         onClick={this.handleMapClick}
       >
         <TileLayer
