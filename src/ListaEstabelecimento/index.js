@@ -40,17 +40,6 @@ export default function ListaEstabelecimento(){
                     </div>
                 </div>
 
-                <div className="card">
-                    <img src="./assets-locais/salao4.jpg"/>
-                    <div className="card-text">
-                        <h3>Barbearia El Bigodon</h3>
-                        <p>(45)96666-6666</p>
-                        <p>⭐⭐</p>
-                        <small>Masculino</small>
-                        <small>231 avaliações</small>
-                    </div>
-                </div>
-
             </div>
 
         </div>

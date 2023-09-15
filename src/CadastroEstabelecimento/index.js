@@ -7,6 +7,7 @@ export default function CadastroEstabelecimento(){
         <div className="tela-cadastro">
             <div className="cadastro">
                 <div className="cadastro-campos">
+                    <h4>CADASTRO ESTABELECIMENTO</h4>
                     <div className="cadastroInputs">
                         <label>Nome Estabelecimento</label>
                         <input className="campo" type="text" placeholder="Estabelecimento"></input>
@@ -19,24 +20,13 @@ export default function CadastroEstabelecimento(){
                         <label>Telefone</label>
                         <input className="campo" type="text" placeholder="(xx)x xxxx-xxxx"></input>
                     </div>
-                    <div className="cadastroGenero">
-                        <div className="opcoes">
-                            <input type="checkbox"/>
-                            <label>Masculino</label>
-                        </div>
-                        <div className="opcoes">
-                            <input type="checkbox"/>
-                            <label>Feminino</label>
-                        </div>
-                        <div className="opcoes">
-                            <input type="checkbox"/>
-                            <label>Ambos</label>
-                        </div>
+                    <div className="cadastroInputs">
+                        <label>CNPJ</label>
+                        <input className="campo" type="text" placeholder="00.000.000/0000-00"></input>
                     </div>
-
                     <Link to='/' className="botao">Cadastrar</Link>
-
                 </div>
+
             </div>
         </div>
     );

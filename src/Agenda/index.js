@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import 'react-calendar/dist/Calendar.css';
 import Calendar from 'react-calendar';
 import {Link} from 'react-router-dom';
-import './CalendarApp.css';
+import './style.css';
 
 function Agenda() {
   const [selectedDate, setSelectedDate] = useState(new Date());
